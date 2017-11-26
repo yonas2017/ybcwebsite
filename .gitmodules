@@ -1,0 +1,4 @@
+[submodule "openchurch"]
+	path = openchurch
+	url = https://git.drupal.org/project/openchurch.git
+	branch = master
