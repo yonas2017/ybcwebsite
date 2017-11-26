@@ -1,4 +1,4 @@
-[submodule "openchurch"]
-	path = openchurch
-	url = https://git.drupal.org/project/openchurch.git
-	branch = master
+[submodule "pr_openchurch"]
+	path = pr_openchurch
+	url = https://github.com/abreham/openchurch.git
+	branch = dev
