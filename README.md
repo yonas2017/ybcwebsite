@@ -1,14 +1,7 @@
 # ybcwebsite
 Yewongel Berhan Church Web Site 
 
-#Removing password requirement when pushing  
-1.>> ssh-keygen -t rsa  
-2.>> copy /home/abreham/.ssh/id_rsa.pub to your github account rsa settings:https://github.com/settings/keys>  
-3.>> git remote set-url origin git+ssh://git@github.com/yonas2017/ybcwebsite.git  
-4.>> git remote show origin 
-
-
-proj structure:  
+Proj structure:  
 ================ 
  ybcwebsite:  
       <submodule1:pr_openchurch:branch->dev>  
@@ -16,7 +9,7 @@ proj structure:
       <submodule3:.....>  
 
 
-#Example Adding Submodule: 
+#Adding Submodule: 
 =========================
 #Added pr_openchurch as submodule
 #changed push/pull location to abreham/openchurch.git [you can relocate this module to common place.] 
@@ -31,3 +24,10 @@ proj structure:
   >>git push --set-upstream origin dev  
   >>cd ybcwebsite  
   >>git submodule add --branch dev https://github.com/abreham/openchurch.git pr_openchurch 
+
+#Removing password requirement when pushing
+===========================================
+1.>> ssh-keygen -t rsa  
+2.>> copy /home/abreham/.ssh/id_rsa.pub to your github account rsa settings:https://github.com/settings/keys>  
+3.>> git remote set-url origin git+ssh://git@github.com/yonas2017/ybcwebsite.git  
+4.>> git remote show origin 
