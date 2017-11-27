@@ -14,7 +14,7 @@ Proj structure:
 #Added pr_openchurch as submodule  
 #changed push/pull location to abreham/openchurch.git [you can relocate this module to common place.]   
 #created 'dev' branch which we are going to work on that point to 8.x-2.x version.    
-#[Later can merge fromdrupal git if there are usefull changes.]   
+#[Later we can merge from drupal git if there are usefull changes.]   
 
   >>git clone https://git.drupal.org/project/openchurch.git  
   >>cd openchurch/  
