@@ -14,6 +14,8 @@ proj structure:
       <submodule1:pr_openchurch:branch->dev>  
       <submodule2:pr_drupalcore:branch->dev>  
       <submodule3:.....>  
+
+
 #Example: 
 #Added pr_openchurch as submodule
 #changed push/pull location to abreham/openchurch.git [you can relocate this module to common place.] 
